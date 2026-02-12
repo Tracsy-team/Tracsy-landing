@@ -122,7 +122,7 @@ export default function App() {
               <Button variant="ghost">Sign In</Button>
               <Button asChild>
                 <a
-                  href="https://tracsy.streamlit.app/"
+                  href = "http://localhost:8080"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -210,7 +210,7 @@ export default function App() {
               <Button
               size="lg"
               className="text-lg px-8 py-6"
-              onClick={() => window.open("https://tracsy.streamlit.app", "_blank")}
+              onClick={() => window.open("http://localhost:8080/", "_blank")}
               >
               Start Free Trial
               <ChevronRight className="w-5 h-5 ml-2" />
@@ -463,7 +463,7 @@ export default function App() {
                 asChild
               >
                 <a
-                  href="https://tracsy.streamlit.app/"
+                  href = "http://localhost:8080"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
